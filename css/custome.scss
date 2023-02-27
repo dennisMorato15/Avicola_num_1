@@ -1,0 +1,15 @@
+$enable-shadows: true; 
+$primary: #3b6757;
+$secondary: #88BF9B;
+$danger:rgb(210, 58, 58);
+@import"../libs/bootstrap/scss/bootstrap";
+
+body{
+background-color: rgb(255, 255, 255);
+
+}
+.card{
+    background-color: #ffffff; 
+    border:  #28664E 1px solid; 
+    box-shadow: 1px 3px 3px 1px #28664E;
+}
